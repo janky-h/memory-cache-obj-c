@@ -5,7 +5,10 @@
 ## Build generated
 build/
 DerivedData
-
+obj/
+Build/
+Obj/
+temp/
 ## Various settings
 *.pbxuser
 !default.pbxuser
@@ -51,3 +54,6 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+
+*.lib
+*.a
